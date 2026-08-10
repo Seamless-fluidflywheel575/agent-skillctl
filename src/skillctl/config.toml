@@ -1,0 +1,21 @@
+# skillctl adapter configuration
+# Import mode and directory takeover are selected interactively.
+
+# This is the central enabled view itself. It can be imported, but cannot be
+# taken over because replacing it with a link to itself would be invalid.
+[[adapters]]
+name = "agents"
+path = "~/.agents/skills"
+
+[[adapters]]
+name = "openclaw"
+path = "~/.openclaw/skills"
+
+[[adapters]]
+name = "claude"
+path = "~/.claude/skills"
+
+# Codex system content is ignored during import and prevents directory takeover.
+[[adapters]]
+name = "codex"
+path = "~/.codex/skills"
