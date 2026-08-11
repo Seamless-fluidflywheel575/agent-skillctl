@@ -1,6 +1,9 @@
 <div align="center">
 
+<img width="747" height="487" alt="image" src="https://github.com/user-attachments/assets/4e33962f-eea8-4784-b0f6-1137f9bfe6b9" />
+
 # agent-skillctl
+
 
 **One shared skill library for all of your coding agents.**
 
@@ -15,6 +18,8 @@ Manage local agent skills with an Nginx-inspired
 [![GitHub stars](https://img.shields.io/github/stars/onewesong/agent-skillctl?style=flat&logo=github)](https://github.com/onewesong/agent-skillctl/stargazers)
 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Usage](#usage) · [Configuration](#configuration) · [Development](#development)
+
+
 
 </div>
 
